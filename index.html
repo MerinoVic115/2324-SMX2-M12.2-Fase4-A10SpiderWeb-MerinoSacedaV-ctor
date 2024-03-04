@@ -40,10 +40,14 @@
             text-align: justify; 
         }
 
-        #personajesimg{
+        .personajesimg{
             width: 80%;
             height: 300px;
             text-align: center;
+        }
+
+        .separador {
+            margin-top: 40px;
         }
     </style>
 
@@ -68,16 +72,16 @@
         </div>
     </section>
     <section id="prueba2"></section>
-    
+    <div class="separador"></div> <!-- Aquí se agrega el bloque de separación -->
     <section>
-    <div style="display: flex; justify-content: space-around;">
-        <img src="tomtrajeado.jpg" alt="Imagen 1" id="personajesimg">
-        <img src="zendaya.jpg" alt="Imagen 2" id="personajesimg">
-    </div>
-    <div style="display: flex; justify-content: space-around;">
-        <p>Tom Holland</p>
-        <p>Zendaya</p>
-    </div>
+        <div style="display: flex; justify-content: space-around;">
+            <img src="tomtrajeado.jpg" alt="Imagen 1" class="personajesimg">
+            <img src="zendaya.jpg" alt="Imagen 2" class="personajesimg">
+        </div>
+        <div style="display: flex; justify-content: space-around;">
+            <p>Tom Holland</p>
+            <p>Zendaya</p>
+        </div>
     </section>
 </body>
 </html>
